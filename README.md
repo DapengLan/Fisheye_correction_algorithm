@@ -12,6 +12,11 @@ Running environment: matlab.
 
 - fish_correction.m, fish_3D_origin.m: Display correction of spherical perspective projection model based on the fish-eye image is divided into left and right and up and down the center of five grid
 
+## Outcome
+  This work has been implemented in the FPGA DE2-115.
+  Paper: [A Fisheye Lens 360 Degree Panoramic Monitorin System Based on the FPGA] (http://www.innovateasia.com/asia/download/articles/2013/cn069.pdf)
+  [Video-Chinese] (https://www.youtube.com/watch?v=87rK8xCYUkA)
+
 ## Reference
 ###### [1] ALTERA Corporation, “A Flexible Architecture for Fisheye Correction in Automotive Rear-View Cameras”, ALTERA White Paper,2008.
 ###### [2] T．N．Mundhenk，M．J．Rivett，Techniques for Fisheye Lens Calibration using a Minimal Number of Measurements，Procof the SPIE Intelligent Robotics and Computer Vision Conference, Boston, Massachusetts，2000，v01．11，pp：8—9．
