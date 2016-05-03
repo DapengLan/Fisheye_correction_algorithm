@@ -1,0 +1,33 @@
+clear all;
+clc;
+tic
+pi=3.141592653589793;
+%for i = 55:1:56
+%str = strcat ('D:\123\', int2str(i) ,'.jpg') ; % 连接字符串形成图像的文件名。
+I0=imread('c.jpg');
+I1=rgb2gray(I0);
+[height0,width0]=size(I1);
+height=2*(height0);
+width =2*(width0);
+I2=zeros(height,width);
+a1=height/4;
+a2=height*3/4;
+b1=width/4;
+b2=width*3/4;
+for i=1:height
+    for j=1:width
+        if i<=a1 || i>a2 || j<=b1 || j>b2;
+            I2(i,j)=255;
+        else
+            I2(i,j)=I1(i-a1,j-b1);
+        end
+    end
+end
+Inew=DistortionRate(I2);
+Inew=uint8(Inew);
+figure,imshow(Inew);
+toc
+time=toc;
+%end
+
+
