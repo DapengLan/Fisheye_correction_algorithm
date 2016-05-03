@@ -14,8 +14,8 @@ Running environment: matlab.
 
 ## Outcome
   This work has been implemented in the FPGA DE2-115.
-  Paper: [A Fisheye Lens 360 Degree Panoramic Monitorin System Based on the FPGA] (http://www.innovateasia.com/asia/download/articles/2013/cn069.pdf)
-  [Video-Chinese] (https://www.youtube.com/watch?v=87rK8xCYUkA)
+- Paper: [A Fisheye Lens 360 Degree Panoramic Monitorin System Based on the FPGA] (http://www.innovateasia.com/asia/download/articles/2013/cn069.pdf)
+- [Video-Chinese] (https://www.youtube.com/watch?v=87rK8xCYUkA)
 
 ## Reference
 ###### [1] ALTERA Corporation, “A Flexible Architecture for Fisheye Correction in Automotive Rear-View Cameras”, ALTERA White Paper,2008.
